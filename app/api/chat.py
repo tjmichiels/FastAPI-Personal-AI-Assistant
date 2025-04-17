@@ -1,6 +1,7 @@
+import ollama
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-import ollama
+from ollama import chat
 
 router = APIRouter()
 
