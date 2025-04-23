@@ -18,7 +18,7 @@ def get_rag_answer(question):
     prompt = PromptTemplate.from_template(
         "Je bent een vriendelijke studiecoach die studenten helpt bij persoonlijke en studie-gerelateerde vragen. "
         "Gebruik de onderstaande context om de vraag in het Nederlands te beantwoorden.\n\n"
-        "Context:\n{context}\n\n"
+        "Context:{context}\n\n"
         "Vraag:\n{question}\n\n"
         "Antwoord:"
     )
