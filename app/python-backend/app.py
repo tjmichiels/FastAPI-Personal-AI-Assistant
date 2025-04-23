@@ -9,3 +9,4 @@ async def ask(request: Request):
     question = data["question"]
     answer = get_rag_answer(question)
     return {"answer": answer}
+
