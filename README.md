@@ -5,9 +5,14 @@ Het redirecten naar de juiste folder
 cd C:\Users\Gebruiker\PycharmProjects\FastAPI-Personal-AI-Assistant\app\python-backend
 ```
 
-Het installeren van de juiste packages
+Het installeren van de juiste packages 
 ```
 CD pip install langchain llama-index chromadb fastapi uvicorn
+```
+
+Installeren van ChromeDB om alles lokaal op te slaan
+```
+pip install chromadb
 ```
 
 Het installeren van de langchain package
