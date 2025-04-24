@@ -10,6 +10,11 @@ Het installeren van de juiste packages
 CD pip install langchain llama-index chromadb fastapi uvicorn
 ```
 
+Het installeren van de langchain package
+```
+pip install langchain-community
+```
+
 Om de LLM local te kunnen runnen op port 8000
 ```
 uvicorn app:app --reload
