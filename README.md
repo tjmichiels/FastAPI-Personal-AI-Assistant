@@ -15,4 +15,9 @@ Om de LLM local te kunnen runnen op port 8000
 uvicorn app:app --reload
 ```
 
-Het is aangeraden om de CRUD operations momenteel te doen via Postman aangezien er nog niet een duidelijke connectie is met Vercel.
+Het is aangeraden om de CRUD operations momenteel te doen via Postman aangezien er nog niet een duidelijke connectie is met Vercel. 
+
+Ook is het belangrijk om Microsoft C++ VS Build Tools te hebben geinstalleerd op je laptop 
+```
+https://visualstudio.microsoft.com/downloads/?q=build+tools
+```
