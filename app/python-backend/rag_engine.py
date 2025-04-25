@@ -92,7 +92,7 @@ def get_rag_answer(question):
     # 🔍 Debug: print welke context is opgehaald
     print("\n🔍 [DEBUG] Opgehaalde context:\n")
     for i, doc in enumerate(relevant_docs):
-        print(f"📄 Context {i+1}:\n{doc.page_content}\n-----------") // Dit was een en al voor testing bedoeld 
+        print(f"📄 Context {i+1}:\n{doc.page_content}\n-----------") # Dit was een en al voor testing bedoeld 
 
     # Prompt in het Nederlands, geen fantasie
     prompt = PromptTemplate.from_template(
