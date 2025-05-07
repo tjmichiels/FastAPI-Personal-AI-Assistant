@@ -24,6 +24,11 @@ Om de LLM local te kunnen runnen op port 8000
 ```
 uvicorn app:app --reload
 ```
+Of de alternatieve command 
+```
+python -m uvicorn app:app --reload
+```
+
 
 Het is aangeraden om de CRUD operations momenteel te doen via Postman aangezien er nog niet een duidelijke connectie is met Vercel. 
 
