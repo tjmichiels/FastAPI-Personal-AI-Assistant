@@ -7,7 +7,7 @@ cd C:\Users\Gebruiker\PycharmProjects\FastAPI-Personal-AI-Assistant\app\python-b
 
 Het installeren van de juiste packages 
 ```
-CD pip install langchain llama-index chromadb fastapi uvicorn
+CD pip install langchain-community llama-index chromadb fastapi uvicorn
 ```
 
 Installeren van ChromeDB om alles lokaal op te slaan
