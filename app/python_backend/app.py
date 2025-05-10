@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Request
-from rag_engine import get_rag_answer
+from app.python_backend.rag_engine import get_rag_answer
+
 
 app = FastAPI()
 

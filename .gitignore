@@ -1,2 +1,2 @@
 # Ignore Chroma vectorstore
-app/python-backend/chroma_db/
+app/python_backend/chroma_db/
