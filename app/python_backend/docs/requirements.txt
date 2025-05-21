@@ -1,7 +1,6 @@
 fastapi
-uvicorn
+uvicorn[standard]
 langchain
 langchain-community
 chromadb
 ollama
-rag_engine
