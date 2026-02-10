@@ -31,9 +31,9 @@ def get_rag_answer(question):
     retriever = vectorstore.as_retriever(search_kwargs={"k": 10})
     relevant_docs = retriever.get_relevant_documents(question)
 
-    print("\n🔍 [DEBUG] Opgehaalde context:\n")
+    print("\n [DEBUG] Opgehaalde context:\n")
     for i, doc in enumerate(relevant_docs):
-        print(f"📄 Context {i+1}:\n{doc.page_content}\n-----------")
+        print(f" Context {i+1}:\n{doc.page_content}\n-----------")
 
     prompt = PromptTemplate.from_template(
         "Je bent een vriendelijke studiecoach aan Windesheim. "
